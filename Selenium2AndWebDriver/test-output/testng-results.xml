@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22859" started-at="2011-08-09T18:43:38Z" finished-at="2011-08-09T18:44:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22859" started-at="2011-08-09T18:43:38Z" finished-at="2011-08-09T18:44:01Z">
+      <class name="com.example.webdriverExampleTest">
+        <test-method status="PASS" signature="startBrowser()" name="startBrowser" is-config="true" duration-ms="1269" started-at="2011-08-09T18:43:38Z" finished-at="2011-08-09T18:43:40Z">
+        </test-method>
+        <test-method status="FAIL" signature="login()" name="login" duration-ms="21558" started-at="2011-08-09T18:43:40Z" finished-at="2011-08-09T18:44:01Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.example.ExampleMainPage.getElementByIDOrName(ExampleMainPage.java:55)
+	at com.example.ExampleMainPage.inputField(ExampleMainPage.java:27)
+	at com.example.webdriverExampleTest.login(webdriverExampleTest.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:685)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:854)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1178)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1182)
+	at org.testng.TestRunner.privateRun(TestRunner.java:761)
+	at org.testng.TestRunner.run(TestRunner.java:612)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:241)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1169)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1094)
+	at org.testng.TestNG.run(TestNG.java:1006)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:107)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:199)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:170)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method status="PASS" signature="colseBrowser()" name="colseBrowser" is-config="true" duration-ms="27" started-at="2011-08-09T18:44:01Z" finished-at="2011-08-09T18:44:01Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
